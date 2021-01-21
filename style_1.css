@@ -1,0 +1,12 @@
+.topic {
+    font-weight: bold;
+    margin-right:8px;
+    margin-bottom: 0px;
+}
+.space {
+    margin-right:32px;
+    display: inline-block;
+}
+.summary {
+    margin:0px;
+}

@@ -1,0 +1,29 @@
+* {
+    /* margin: 0px; */
+    padding: 0px;
+}
+#resume {
+    width: 800px;
+    margin:auto;
+    border:2px solid black;
+    border-radius: 10px;
+    background-image: url(001.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+h1 {
+    font-size: 32px;
+    text-shadow: -1px -1px 1px red;
+    text-align:center;
+    background-color: rgb(159, 159, 224);
+}
+p {
+    font-weight: bold;
+    color:orange;
+}
+
+ol {
+    list-style-type:upper-roman;
+    list-style-position: inside;
+}
