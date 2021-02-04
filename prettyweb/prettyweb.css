@@ -1,0 +1,441 @@
+/* 使用本地字体 */
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    font-family: 'Montserrat-Light';
+    src: url('./fonts/Montserrat-ExtraLight.otf');
+    src: url('./fonts/Montserrat-Light.otf')
+}
+.clear {
+    clear: both;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat-Light';
+}
+html, body {
+    height: 100%;
+}
+.page-one {
+    width: 1600px;
+    height: 990px;
+    background: url(images/Background_1.png) no-repeat;
+    /* 消除子元素的margin影响父元素 */
+    overflow: hidden;
+}
+.page-one h1 {
+    color: #ffffff;
+    font-size: 62px;
+    font-family: 'Montserrat-ExtraLight';
+    font-weight: normal;
+    text-align: center;
+    margin-top: 219px;
+}
+.text-main {
+    width: 800px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Montserrat-ExtraLight';
+    /* 两种改变透明度的方法 */
+    /* opacity: 0.7; */
+    color:rgba(255,255,255,0.7);
+    text-align: center;
+    margin: 72px auto;
+}
+.register {
+    width: 970px;
+    height: 254px;
+    /* margin-bottom: 210px; */
+    margin: 0 auto 210px auto;
+    border: 1px solid #55524f;
+}
+.page-one .title-2 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 61px;
+}
+.page-one .title-3 {
+    color: rgba(255,255,255,0.3);
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.register-username {
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+    text-indent: 22px;
+    line-height: 40px;
+    width:292px;
+    /* 输入框背景透明 */
+    background-color: transparent;
+    border: 1px solid #55524f;
+    margin-left: 100px;
+    margin-top: 46px;
+}
+.register-pwd {
+    float: left;
+    color: rgba(255,255,255,0.3);
+    font-size: 14px;
+    text-indent: 22px;
+    line-height: 40px;
+    width:292px;
+    /* 输入框背景透明 */
+    background-color: transparent;
+    border: 1px solid #55524f;
+    margin-left: 30px;
+    margin-top: 46px;
+}
+.register-button {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ffffff;
+    border: 0px;
+    width: 125px;
+    margin-left: 30px;
+    margin-top: 46px;
+}
+
+.page-two {
+    width: 1600px;
+    height: 710px;
+    overflow: hidden;
+}
+.page-two h5 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 14px;
+    margin-top: 90px;
+}
+.page-two h2 {
+    font-size: 42px;
+    font-family: 'Montserrat-ExtraLight';
+    text-align: center;
+    font-weight: normal;
+    line-height: 52px;
+    margin: 40px 415px 0 415px;
+}
+.page-two .box-1 {
+    width: 415px;
+    height: 85px;
+    margin-top: 84px;
+    margin-left: 292px;
+    float: left;
+}
+.page-two .box-2 {
+    width: 415px;
+    height: 85px;
+    margin-top: 84px;
+    margin-left: 164px;
+    float: left;
+}
+.page-two .box-1 img,
+.page-two .box-2 img {
+    float: left;
+}
+.page-two .box-1 h6,
+.page-two .box-2 h6 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-left: 64px;
+}
+.page-two .box-1 p,
+.page-two .box-2 p {
+    margin-top: 26px;
+    font-size: 16px;
+    margin-left: 64px;;
+    color: rgba(0,0,0,0.3);
+    font-family: 'Montserrat-ExtraLight';
+}    
+
+.page-three {
+    width: 1600px;
+    height: 799px;
+    background: url(images/Background_2.png) no-repeat;
+    /* 消除子元素的margin影响父元素 */
+    overflow: hidden;
+}
+.page-three h2 {
+    font-family: 'Montserrat-ExtraLight';
+    font-size: 42px;
+    color: #ffff;
+    font-weight: normal;
+    width: 380px;
+    margin-top: 183px;
+    margin-left: 315px;
+}
+.page-three p {
+    font-family: 'Montserrat-ExtraLight';
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255,255,255,0.5);
+    width: 370px;
+    margin-top: 23px;
+    margin-left: 315px;
+}
+.check-button {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    line-height: 53px;
+    background-color: #ffffff;
+    border: 0px;
+    width: 240px;
+    margin-left: 315px;
+    margin-top: 51px;
+}
+.free-button {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 53px;
+    background-color: transparent;
+    border: 1px solid #6c736e;
+    width: 240px;
+    margin-left: 30px;
+    margin-top: 51px;
+}
+
+.page-four {
+    width: 1600px;
+    height: 580px;
+    border: 1px solid #e7e7e7;
+    /* 消除子元素的margin影响父元素 */
+    overflow: hidden;
+}
+.page-four h1 {
+    font-family: 'Montserrat-ExtraLight';
+    font-size: 42px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 100px;
+}
+.page-four .box-1 {
+    font-family: 'Montserrat-ExtraLight';
+    text-align: center;    
+    font-size: 16px;
+    color: rgba(0,0,0,0.7);    
+    margin-top: 85px; 
+    display: flex;
+    justify-content: center;
+}
+.page-four .box-2 {
+    width: 280px;
+    margin-right: 76px;
+    line-height: 26px;
+}
+.page-four img {
+    margin-bottom: 44px;
+}
+
+.page-five {
+    width: 1600px;
+    height: 1002px;
+    border: 1px solid #e7e7e7;
+    /* 消除子元素的margin影响父元素 */
+    overflow: hidden;
+}
+img[src="images/Photo_1.png"] {
+    float: left;
+    margin-left: 315px;
+    margin-top: 115px;
+}
+img[src="images/Photo_2.png"] {
+    float: right;
+    margin-right: 315px;
+    margin-top: 80px;
+}
+.page-five .title-1{
+    margin-top: 191px;
+    margin-right: 304px;
+    margin-left: 985px;
+    font-size: 20px;
+}
+.page-five .title-2 {
+    margin-top: 153px;
+    margin-left: 315px;
+    margin-right: 950px;
+    font-size: 20px;
+}
+.page-five .text-1 {
+    margin-top: 30px;
+    margin-right: 304px;
+    margin-left: 985px;
+    font-size: 16px;
+}
+.page-five .text-2 {
+    margin-top: 30px;
+    margin-left: 315px;
+    margin-right: 974px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.page-six {
+    width: 1600px;
+    height: 1091px;
+    border: 1px solid #e7e7e7;
+    overflow: hidden;
+}
+.page-six h2 {
+    font-size: 42px;
+    margin-top: 76px;
+    text-align: center;
+}
+.page-six p {
+    font-size: 18px;
+    margin: 35px auto;
+    text-align: center;
+    width: 700px;
+}
+.page-six div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.page-six .img-div {
+    width: 470px;
+    height: 340px;
+    margin: 35px 35px;
+    /* 为了子元素绝对定位而设 */
+    position: relative;
+}
+
+.page-six .cover {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    opacity: 0;
+    position:absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+}
+.page-six h5 {
+    font-size: 20px;
+    margin-top: 110px;
+
+}
+.page-six .cover p {
+    font-size: 14px;
+    height: 14px;
+    margin: 21px 0;
+}
+.img-icon {
+    /* 图片不被拉伸 */
+    object-fit:none;
+    margin:0 30px;
+    margin-bottom: 92px;
+
+}
+.page-six .img-div:hover .cover{
+    /* 图片缩放效果 */
+    /* transform: scale(1.05); */
+    opacity: 1;
+}
+
+.page-seven {
+    width: 1600px;
+    height: 703px;
+    overflow: hidden;
+    display: flex;
+}
+.page-seven .box-1 {
+    width: 470px;
+    height: 563px;
+    margin: 70px 0 70px 315px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+}
+.page-seven h5 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 51px;
+    margin-bottom: 20px;    
+}
+.page-seven input {
+    line-height: 40px;
+    text-indent: 20px;
+    width: 370px;
+    color: rgba(0,0,0,0.6);
+    margin: 30px 50px 0px 50px;
+}
+.page-seven input[name="textarea"] {
+    height: 147px;
+    /* 实现value在左上显示 */
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+.page-seven input[type="button"] {
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    border: 0;
+}
+.page-seven .box-2 {
+    width: 369px;
+    height: 357px;
+    margin: 158px 0px 0px 132px;
+}
+.page-seven h2 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: normal;
+}
+.page-seven h6 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    margin-top: 35px;
+}
+.page-seven p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 39px;
+}
+.page-seven img {
+    float: left;
+    margin-top: 30px;
+}
+
+footer {
+    width: 1600px;
+    height: 410px;
+    background-color: #141414;
+    color:#fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+footer .box-1,
+footer .box-2,
+footer .box-3 {
+    margin: 89px 150px 0px 0px;
+}
+footer a {
+    display: block;
+    margin-top: 20px;
+    color: rgba(255,255,255,0.5);
+}
+footer .box-4 {
+    width: 300px;
+    margin-top: 89px;
+}
+footer img {
+    margin-top: 30px;
+    margin-right: 22px;
+    opacity: .5;
+}
