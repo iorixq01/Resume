@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="app">
+            <li tabindex="1" onclick="doAccordion(this)"><img src="images/Item 1.png" /></li>
+            <li tabindex="1" onclick="doAccordion(this)"><img src="images/Item 2.png" /></li>
+            <li tabindex="1" onclick="doAccordion(this)"><img src="images/Item 3.png" /></li>
+            <li tabindex="1" onclick="doAccordion(this)"><img src="images/Item 4.png" /></li>
+        </ul>
+        <ul class="setting">
+            <li><img src="images/Grid.png" /></li>
+            <li><img src="images/Settings.png" /></li>
+        </ul>
+    </nav>
+    <aside>
+        <ul class="menu">
+            <h5>MENU<img src="images/Settings.png" /></h5>
+            <li>Overview</li>
+            <li>Sales<img src="images/Base.png" /><span>54</span></li>
+            <li>Your Staff</li>
+            <li>Analytics & Targeting</li>
+            <li>What's New</li>
+        </ul>
+        <hr>
+        <ul class="menu-2">
+            <h5>YOUR PRODUCTS<img src="images/Settings.png" /></h5>
+            <li class="type-1">Books</li>
+            <li class="type-2">Tutorials</li>
+            <li class="type-3">Stocks</li>
+            <li class="type-4">Infographics</li>
+        </ul>
+        <hr>
+        <ul class="menu">
+            <h5>DASHBOARD<img src="images/Settings.png" /></h5>
+            <li tabindex="1" onclick="doAccordion(this)">Messages<img src="images/Base.png" /><span>21</span></li>
+            <li>Connections</li>
+            <li>Integrations<img src="images/_.png" /></li>
+            <li>Account Settings</li>
+            <li>App Settings</li>
+        </ul>
+        <div class="goals">
+            <p>Monthly Goals $580/$3200</p>
+            <img src="images/Fill.png" />
+        </div>
+    </aside>
+    <section>
+        <header>
+            <h1>Messages</h1>
+            <img src="images/Face.png" />
+            <div>
+                <p class="username">Jordan J.</p>
+                <p class="role">Administrator</p>
+            </div>
+            <img src="images/dropdown.png" />
+        </header>
+        <div id="userlist">
+            <div class="search">
+                <input type="text" value="Search">
+                <img src="images/Search icon.png" />
+            </div>
+            <div class="userlist-list">
+                <img class="userface" src="images/Face2.png" />
+                <div class="user">
+                    <p class="username">● Bessie Berry<span>3m</span></p>
+                    <p class="role">Twitter</p>
+                </div>
+                <div class="text">
+                    <p class="doc">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively
+                        quick, and stable...</p>
+                    <img src="images/Base1.png" />
+                </div>
+            </div>
+            <div class="userlist-list">
+                <img class="userface" src="images/Face3.png" />
+                <div class="user">
+                    <p class="username1">Victor Weber<span>8m</span></p>
+                    <p class="role">Adobe</p>
+                </div>
+                <div class="text">
+                    <p class="doc1">I shared this on my fb wall a few months back, and I thought I'd share it here again
+                        because ist's such a great...</p>
+                </div>
+            </div>
+            <div class="userlist-list">
+                <img class="userface" src="images/Face4.png" />
+                <div class="user">
+                    <p class="username1">Dustin Benson<span>Yesterday</span></p>
+                    <p class="role">Facebook</p>
+                </div>
+                <div class="text">
+                    <p class="doc1">If there is anyone who needs an invitation please add yourself in the comments of
+                        this post!</p>
+                </div>
+            </div>
+            <div class="userlist-list">
+                <img class="userface" src="images/Face5.png" />
+                <div class="user">
+                    <p class="username1">jack Mason<span>Yesterday</span></p>
+                    <p class="role">Yahoo</p>
+                </div>
+                <div class="text">
+                    <p class="doc1">BruteDC is a peer-to-peer movie+tv series sharing and downloading platform which
+                        works on intranet inside...</p>
+                </div>
+            </div>
+            <div class="userlist-list">
+                <img class="userface" src="images/Face6.png" />
+                <div class="user">
+                    <p class="username1">Stephen Shelton<span>13 Jun</span></p>
+                    <p class="role">Snapchat</p>
+                </div>
+                <div class="text">
+                    <p class="doc1">Yes, p2p traffic is often filtered (QoSed). Although i do use BT on O2 wires, and in
+                        good days dl speed...</p>
+                </div>
+            </div>
+            <div class="userlist-list">
+                <img class="userface" src="images/Face7.png" />
+                <div class="user">
+                    <p class="username1">Sally Willis<span>12 Jun</span></p>
+                    <p class="role">Twitter</p>
+                </div>
+                <div class="text">
+                    <p class="doc1">Yes, it's O2: 'internet extreme', which is no longer offered.</p>
+                </div>
+            </div>
+            <div class="userlist-list">
+                <img class="userface" src="images/Face8.png" />
+                <div class="user">
+                    <p class="username1">Robert Patton<span>9 Jun</span></p>
+                    <p class="role">A Team</p>
+                </div>
+                <div class="text">
+                    <p class="doc1">I change my service from this 4Mb plan to their much cheaper 8M.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="article">
+            <div class="edit">
+                <p>Bessie Berry<img src="images/Status.png" /></p>
+                <div class="button">
+                    <button type="button" class="button-1"></button>
+                    <button type="button" class="button-2"></button>
+                    <button type="button" class="button-3"></button>
+                </div>
+                <div class="page">1 of 28</div>
+                <div class="button2">
+                    <button type="button" class="button-1"></button>
+                    <button type="button" class="button-2"></button>
+                </div>
+            </div>
+            <div class="massage">
+                <div class="text-doc">
+                    <img class="face-img" src="images/Face2.png" />
+                    <p class="use1">Bessie Berry<span>8:31 AM</span></p>
+                    <p class="doc1">Hi guys Ive got the O2 package and have really slow internet. A speed check online
+                        said i can get 3mbps but it seems more like 0.5 these days, just freezing and taking ages to
+                        open pages and open audio files for example. I have decided to switch to the UPC package which
+                        offers 10mbps but do you think i will get it?</p>
+                </div>
+                <div class="text-doc">
+                    <img class="face-img" src="images/Face1.png" />
+                    <p class="use1">Bessie Berry<span>8:31 AM</span></p>
+                    <p class="doc1">I have internet for 9 month and nevere could benefit from the full capacity of
+                        5Mbit/s as it is filtered by O2 when it detect traffic on public p2p sharing in my situation all
+                        my internet speed slows to 512Kbit/s. I never had 400KB/s on when downloading from p2p public
+                        servers like torrent emule etc. I downoad with 500KB/s from private trakers instead. So
+                        conlcusion O2 block traffic on p2p connections. I have made hundreds of test in Italy and Sweden
+                        adn Romania with the same file to doanload with the same setting and same antivirus and just
+                        needed to open ports in firewall and forward same ports and the speed was at full capacity in 1
+                        minute, here in 9 month never had this luck.</p>
+                </div>
+                <div class="line"><span>Tuesday</span></div>
+                <div class="text-doc">
+                    <img class="face-img" src="images/Face2.png" />
+                    <p class="use1">Bessie Berry<span>8:31 AM</span></p>
+                    <p class="doc1">Funny comparison, so would the proper antivirus not slow down the internet as much
+                        or do you mean a freeble doenst protect the computer from viruses?</p>
+                </div>
+                <div class="text-doc">
+                    <img class="face-img" src="images/Face1.png" />
+                    <p class="use1">Bessie Berry<span>8:31 AM</span></p>
+                    <p class="doc1">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2, and haven't had any
+                        problems. In fact, it's relatively quick, and stable. It's not perfect, but I really don't have
+                        issues, as long as I keep track of what I'm doing on it. I max out at about 3Mb/sec down, and
+                        350 Kb/sec up. Probable because if a noisy telephone line, not because I'm being throttled. When
+                        my uploads go over 25 KB/sec (note, bytes, not bits), my download speed suffers. This is
+                        expected, as downloads require upload bandwidth as well.</p>
+                    <div class="imgs">
+                        <div class="img-div">
+                            <img src="images/Photo.png" />
+                            <div class="cover">
+                                <img class="img-icon" src="images/Open icon.png" />
+                            </div>
+                        </div>
+                        <div class="img-div">
+                            <img src="images/Photo2.png" />
+                            <div class="cover">
+                                <img class="img-icon" src="images/Open icon.png" />
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="line2"><span>New Messages</span></div>
+                <div class="text-doc">
+                    <img class="face-img" src="images/Face2.png" />
+                    <p class="use1">Bessie Berry<span>8:31 AM</span></p>
+                    <p class="doc1">I pay for the 4Mb/sec down, 512 Kb/sec up service O2. In fact, it's relatively
+                        quick, and stable. It's not perfect, but I really don't have issues, as long as I keep track of
+                        what I'm doing on it.</p>
+                </div>
+                <div class="entering">
+                    <button type="button"></button>
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
